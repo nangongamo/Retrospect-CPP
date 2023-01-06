@@ -31,7 +31,7 @@ int main()
          << "\nchar：" << c1 << endl
          << endl;
 
-    cout << "请分别一组字符，长度不超过20：" << endl;
+    cout << "请输入一组字符，长度不超过20：" << endl;
     cin >> c2;
     cout << "字符数组：" << c2 << endl;
 
