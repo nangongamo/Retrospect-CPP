@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    system("chcp 65001");
+    //system("chcp 65001");
 
     int i = 0;
     double d = 3.14;
@@ -17,6 +17,6 @@ int main()
     cout << "类型转换后：" << endl;
     cout << "i=" << i << "\ni2=" << i2 << "\ni3=" << i3 << "\ni4=" << i4 << endl;
 
-    system("pause");
+    //system("pause");
     return 0;
 }

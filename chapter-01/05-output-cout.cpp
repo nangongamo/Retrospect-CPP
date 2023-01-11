@@ -1,5 +1,5 @@
 #include <iostream>
-#include <Windows.h>
+//#include <Windows.h>
 using namespace std;
 
 int main()
@@ -14,7 +14,7 @@ int main()
     char c2[20];
     string str = "ABCDEFGHIJKLMN";
 
-    system("chcp 65001"); // 解决 console 乱码；或使用 SetConsoleOutputCP(CP_UTF8)，但需要头部引入 Windows.h
+    //system("chcp 65001"); // 解决 console 乱码；或使用 SetConsoleOutputCP(CP_UTF8)，但需要头部引入 Windows.h
 
     b1 = false;
     cout << "b1的真假值：" << b1 << endl;
@@ -35,6 +35,6 @@ int main()
     cin >> c2;
     cout << "字符数组：" << c2 << endl;
 
-    system("pause");
+    //system("pause");
     return 0;
 }

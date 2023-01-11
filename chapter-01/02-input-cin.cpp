@@ -9,6 +9,6 @@ int main()
     // 输入：空格、TAB、ENTER 作为分隔符
     cin >> name >> age;
     cout << "Hi! My name is " << name << ".\nI am " << age << " years old." << endl;
-    system("pause");
+    // system("pause");
     return 0;
 }

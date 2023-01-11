@@ -27,6 +27,6 @@ int main()
     cout << "The num3 is " << num3 << endl;
     cout << endl;
 
-    system("pause");
+    //system("pause");
     return 0;
 }

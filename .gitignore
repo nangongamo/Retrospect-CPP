@@ -1,4 +1,11 @@
 
-/.vscode
+# Ignore all
+*
 
-*.exe
+# Unignore files with specific extensions
+!*.cpp
+!*.md
+!*.txt
+
+# Unignore all dirs
+!*/

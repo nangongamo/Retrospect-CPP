@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    system("chcp 65001");
+    //system("chcp 65001");
 
     int num = 100;
     const int *num2 = &num;
@@ -13,6 +13,6 @@ int main()
     cout << num2 << "," << *num2 << endl;
     cout << num3 << "," << *num3 << endl;
 
-    system("pause");
+    //system("pause");
     return 0;
 }

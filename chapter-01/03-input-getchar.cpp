@@ -10,6 +10,6 @@ int main()
     // getchar(); // 或者再次调用 getchar()，消耗缓冲区中的ENTER回车换行符
     char ch2 = getchar();
     cout << ch1 << "," << ch2 << endl;
-    system("pause");
+    // system("pause");
     return 0;
 }
